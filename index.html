@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <link href="/css/estilos.css" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <nav class="fuente_arial">
+            <a href="index.html">Formulario&nbsp;&nbsp;</a>
+            <a style="color: gray;" href="tabla.html">Tabla</a>
+        </nav>    
+    </header>
+    <div class="container">
+        
+        <h1>FORMULARIO</h1>
+        <form>
+            <label for="nombre">Nombre:</label><br/>
+            <input class="input_fill" type="text" id="nombre" placeholder="Ingresa tu Nombre Completo"/><br/>
+
+            <label for="email">Email:</label><br/>
+            <input class="input_fill" type="email" id="email" placeholder="Ingresa tu dirección de Correo Electrónico"/><br/>
+
+            <label for="telefono">Telefono:</label><br/>
+            <input class="input_fill" type="text" id="telefono" placeholder="Ingresa tu número de teléfono"/><br/>
+
+            <label for="fechaNac">Fecha de Nacimiento:</label><br/>
+            <input class="input_fill" type="date" id="fechaNac"/><br/>
+
+            <label>Carrera:</label><br/><br/>
+            <input type="radio" id="ii" name="carrera" value="Ingeniería Informática">
+            <label for="ii">Ingeniería Informática</label><br/>
+
+            <input type="radio" id="ici" name="carrera" value="Ingeniería Civil Informática">
+            <label for="ici">Ingeniería Civil Informática</label></br>
+
+            <input type="radio" id="ici-i" name="carrera" value="Ingeniería Civil Industrial Mención Informática">
+            <label for="ici-i">Ingeniería Civil Industrial Mención Informática</label><br/><br/>
+
+            <label for="anoIngreso">Año de Ingreso:</label><br/>
+            <input class="input_fill" type="number" id="anoIngreso" placeholder="Ingresa tu Año de Ingreso"/><br/>
+
+            <input class="button" type="submit" value="ENVIAR!"/>
+
+        </form>
+    </div>
+</body>
+</html>
